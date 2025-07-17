@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Dashboard  = ({props}) => {
+const Dashboard = ({ email }) => {
   return (
     <div>
-    <div>Dashboard page</div>
-    <h1>Email: {props.email}</h1>
+      <div>Dashboard page</div>
+      <h1>Email: {email}</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard 
+export default Dashboard;
