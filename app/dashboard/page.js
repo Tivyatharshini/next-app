@@ -4,7 +4,7 @@ const Dashboard  = ({props}) => {
   return (
     <div>
     <div>Dashboard page</div>
-    <h1>{props.email}</h1>
+    <h1>Email: {props.email}</h1>
     </div>
   )
 }

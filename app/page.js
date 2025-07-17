@@ -13,7 +13,7 @@ export default function Home() {
   if(session){
         return(
           <>
-          <p>You are signed in as {session.user.email}</p>
+          
           <Link href='/dashboard' email={session.user.email}>Dashboard</Link>
           <button onClick={()=>{signOut()}}>SignOut</button>
           </>
@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <p>Please ! SignIn</p>
+      <p>Please! SignIn</p>
       <button onClick={()=>{signIn()}}>SignIn</button>
       <Link href='/home'>home</Link>
       {/* <img src={session.user.image} alt="userImage"></img> */}
